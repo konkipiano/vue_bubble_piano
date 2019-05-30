@@ -41,6 +41,7 @@ li {
 
 a {
   color: #42b983;
+  text-decoration: none;
 }
 
 .btn_a {
