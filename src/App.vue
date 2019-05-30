@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <button type="button">aaa</button>
+    <p><a class="btn_a" href="#">aaa</a></p>
   </div>
 </template>
 
@@ -41,5 +41,28 @@ li {
 
 a {
   color: #42b983;
+}
+
+.btn_a {
+	width: 60px;
+	height: 38px;
+	background: #FFF;
+	border: 1px solid #2a82a3;
+	border-radius: 70px;
+	-moz-border-radius: 70px;
+	-webkit-border-radius: 70px;
+	color: #2a82a3;
+	padding: 42px 20px 20px;
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	font-size: 120%;
+	transition: background-color 0.5s ease-in;
+	-webkit-transition: background-color 0.5s ease-in;
+}
+.btn_a:hover {
+	background: #2a82a3;
+	color: #FFF;
+	border: 1px solid #FFF;
 }
 </style>
